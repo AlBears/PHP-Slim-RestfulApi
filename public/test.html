@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Test API</title>
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+
+  <h1>Posts</h1>
+	<div id="posts"></div>
+
+	<h1>Categories</h1>
+	<div id="categories"></div>
+
+	<h1>Add Post</h1>
+	<form id="postForm">
+		<div>
+			<label>Title</label>
+			<input type="text" id="title">
+		</div>
+
+		<div>
+			<label>Category</label>
+			<span id="category_list"></span>
+		</div>
+
+		<div>
+			<label>Body</label>
+			<textarea id="body"></textarea>
+		</div>
+		<input type="submit" value="Submit">
+	</form>
+
+
+
+</body>
+</html>
